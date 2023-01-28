@@ -37,7 +37,7 @@ function onBtnClick() {
   timerId = setInterval(() => {
     const timeSubtraction = inputDate - new Date();
     const time = convertMs(timeSubtraction);
-    console.log(convertMs(timeSubtraction));
+    // console.log(convertMs(timeSubtraction));
     updateTime(time);
     if (timeSubtraction < 1000) {
       //console.log(1)
